@@ -16,10 +16,10 @@ public class Main {
         int month=getInfo[0];
         int day=getInfo[1];
         int monthIndex= Arrays.asList(Mounths).indexOf(month);
-        if (day<20) System.out.println(Arrays.toString(new String[]{Horoscope[monthIndex]}));
+        if (day<20) System.out.println("Your Zodiac Sign: "+Arrays.toString(new String[]{Horoscope[monthIndex]}));
         if (day>=20) {
             monthIndex+=1;
-        System.out.println(Arrays.toString(new String[]{Horoscope[monthIndex]}));
+        System.out.println("Your Zodiac Sign: "+Arrays.toString(new String[]{Horoscope[monthIndex]}));
         }
 
 
@@ -31,6 +31,13 @@ public class Main {
         userInfo[0]=inputs.nextInt();
         System.out.print("Enter your day of birth: ");
         userInfo[1]=inputs.nextInt();
+        if (userInfo[1]<=0||userInfo[1]>31 ||userInfo[0]<=0||userInfo[0]>12){
+            System.out.println("Try Again");
+            getInfo();
+
+
+        }
+
         return userInfo;
     }
 }
