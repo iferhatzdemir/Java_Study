@@ -1,4 +1,4 @@
-# Suggesting an Activity
+# Number Sorting
 Sorting Algorithms
 This repo was created for projects within the scope of Data Structures and Algorithms training. It contains examples of Insertion Sort and Selection Sort, which are sorting algorithms. It contains one insertionsort.md file, one selectionsort.md file and one README.md file. The content information of the files is as follows.
 
@@ -23,7 +23,7 @@ This algorithm starts from the 2nd element of the array and replaces each elemen
 Working Logic
 It's a very simple algorithm in terms of logic and coding, but when we think about how it will work, it's an algorithm that does so many operations that it can bore the processor. It starts at the beginning of the array and compares all the elements until the end with the previous element and replaces them if necessary. In this way, it scans the array over and over again until the array is completely sorted. When it realizes that the array is completely sorted, i.e. there are no more elements to replace, it stops working and the sorting is finished.
 
-Translated with www.DeepL.com/Translator (free version)
+
 
 
 
@@ -31,7 +31,7 @@ Translated with www.DeepL.com/Translator (free version)
 
 ## Installation
 Clone the project.
->https://github.com/miyendisa/activity-suggesting.git
+https://github.com/iferhatzdemir/Java_Study/tree/main/Sorting/src
 
 ---
 
@@ -72,31 +72,6 @@ Give me a &#11088; if you like the project.
 ## Acknowledgments
 * This repo is created for my own projects on www.patika.dev
 
----
-
-## Installation
-Clone the project.
-> https://github.com/miyendisa/basic-calculator.git
-
----
-
-## Usage
-After cloning the project, open it with the ide you used.
-
----
-
-## Requirements
-* JDK (version 19 is recommended)
-
----
 
 
 
-
-## Show Your Suport
-Give me a &#11088; if you like the project.
-
----
-
-## Acknowledgments
-* This repo is created for my own projects on www.patika.dev
