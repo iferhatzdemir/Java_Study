@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         amount(kilos());
+
     }
     public static void amount(double []kilos){
         System.out.println("-------------------------------------");
