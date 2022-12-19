@@ -3,8 +3,8 @@ Sorting Algorithms
 This repo was created for projects within the scope of Data Structures and Algorithms training. It contains examples of Insertion Sort and Selection Sort, which are sorting algorithms. It contains one insertionsort.md file, one selectionsort.md file and one README.md file. The content information of the files is as follows.
 
 # Selection Sort
-   1.1. Operation Logic
-   This algorithm is, in my opinion, the easiest sorting algorithm to think about. From the first element to the last element, we replace each element with the smallest of the following smaller elements. For example, let's imagine that we sort the following array up to the 3rd element and see what we do next.
+1.1. Operation Logic
+This algorithm is, in my opinion, the easiest sorting algorithm to think about. From the first element to the last element, we replace each element with the smallest of the following smaller elements. For example, let's imagine that we sort the following array up to the 3rd element and see what we do next.
 
 {1, 2, 3, 10, 6, 4, 7}
 
