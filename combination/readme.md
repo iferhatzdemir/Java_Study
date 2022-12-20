@@ -17,7 +17,7 @@ and r represents the number of items being chosen at a time.
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/numbersPow/src
+https://github.com/iferhatzdemir/Java_Study/tree/main/combination/src
 
 ---
 
