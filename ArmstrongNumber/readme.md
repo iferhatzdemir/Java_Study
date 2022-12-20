@@ -22,7 +22,7 @@ of order n (order is number of digits) if.
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/powcalculator/src
+https://github.com/iferhatzdemir/Java_Study/tree/main/ArmstrongNumber/src
 
 ---
 
