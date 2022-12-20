@@ -4,12 +4,8 @@
 
 ---
 
-### Details
-
-* Combinations Formula
-
-> C(n,r) = n! / (r! * (n-r)!), where n represents the total number of items,
-and r represents the number of items being chosen at a time.
+Details
+Program takes the base number (x) and the exponent (n) from the user and prints the answer (x^n) on the terminal.
 
 ---
 
