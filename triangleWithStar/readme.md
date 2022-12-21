@@ -15,7 +15,7 @@
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/trianleWithStar/src
+https://github.com/iferhatzdemir/Java_Study/tree/main/triangleWithStar/src
 
 ---
 
