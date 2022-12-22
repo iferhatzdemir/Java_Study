@@ -22,7 +22,7 @@
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/ATM/src
+https://github.com/iferhatzdemir/Java_Study/tree/main/Fibonacci/src
 
 ---
 
