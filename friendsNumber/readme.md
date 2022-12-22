@@ -1,4 +1,4 @@
-# Frends
+# Friends Number
 ## This program represents ATM transection.
 --- 
 
