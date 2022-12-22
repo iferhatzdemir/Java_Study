@@ -1,4 +1,4 @@
-# ATM Project
+# Frends
 ## This program represents ATM transection.
 --- 
 
