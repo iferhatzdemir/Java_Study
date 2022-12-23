@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 
 public class Main {
+    public static      Scanner addInput = new Scanner(System.in);
     public static void main(String[] args) {
         menuchoose();
 
@@ -21,6 +22,8 @@ public class Main {
         System.out.println("4- Bölme");
         System.out.println("5- Bir sayının kuvvetini alma");
         System.out.println("6- Bir sayının karekökünü alma");
+        System.out.println("7- Bir sayının modunu  alma");
+        System.out.println("8- Diktörtgen Alanı Hesaplama");
         int choose = menuInput.nextInt();
         menuRouter(choose);
     }
@@ -43,10 +46,51 @@ public class Main {
             case 6:
                 square();
                 break;
+            case 7:
+                mod();
+                break;
+            case 8:
+                area();
+                break;
+            case 9:
+                System.out.println("Uzun kenarı Giriniz :");
+                int n = addInput.nextInt();
+                System.out.println( factorial(n));;
+                againProcess();
+                break;
         }
     }
+    public static int factorial(int n) {
+
+        if (n == 0) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+    }
+
+    public static void area(){
+        System.out.println("Uzun kenarı Giriniz :");
+        int firstNumber = addInput.nextInt();
+        System.out.println("Kısa kenarı Giriniz :");
+        int secondNumber = addInput.nextInt();
+        int result=firstNumber*secondNumber;
+        System.out.printf("Uzun Kenarı %d ve kenarı %d olan dikdörtgrnin alanı: %d", firstNumber, secondNumber, result);
+        System.out.println("\n-----------------------------------------------");
+        againProcess();
+    }
+    public static void mod(){
+
+        System.out.println("Birinci Sayıyı Giriniz :");
+        double firstNumber = addInput.nextInt();
+        System.out.println("İkinci Sayıyı Giriniz :");
+        double secondNumber = addInput.nextInt();
+        double result=firstNumber%secondNumber;
+        System.out.println(new DecimalFormat("#.#").format(firstNumber)+" % "+new DecimalFormat("#.#").format(secondNumber)+ " = "+new DecimalFormat("#.#").format(result));
+        System.out.println("\n-----------------------------------------------");
+        againProcess();
+    }
     public static void division(){
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Birinci Sayıyı Giriniz :");
         double firstNumber = addInput.nextInt();
         System.out.println("İkinci Sayıyı Giriniz :");
@@ -59,9 +103,8 @@ public class Main {
     public  static void  againProcess(){
         System.out.println("Tekrar İşlem Yapmak İster Misiniz?");
         System.out.println("Y/N");
-        Scanner againInput = new Scanner(System.in);
 
-        String resultInput=againInput.next();
+        String resultInput=addInput.next();
         resultInput=resultInput.toLowerCase(Locale.ROOT).substring(0,1);
         switch (resultInput) {
             case "y":
@@ -76,7 +119,7 @@ public class Main {
 
     }
     public static void multiplication(){
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Birinci Sayıyı Giriniz :");
         int firstNumber = addInput.nextInt();
         System.out.println("İkinci Sayıyı Giriniz :");
@@ -87,7 +130,7 @@ public class Main {
         againProcess();
     }
     public static void extraction(){
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Ana Sayıyı Giriniz :");
         int firstNumber = addInput.nextInt();
         System.out.println("Çıkarılacak Sayıyı Giriniz :");
@@ -98,7 +141,7 @@ public class Main {
         againProcess();
     }
     public static void exponentiation() {
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Birinci Sayıyı Giriniz :");
         double firstNumber = addInput.nextDouble();
         System.out.println("İkinci Sayıyı Giriniz :");
@@ -110,7 +153,7 @@ public class Main {
         againProcess();
     }
     public static void square() {
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Karakökünü Almak İstediğiniz Sayıyı Giriniz :");
         double firstNumber = addInput.nextDouble();
         double result=Math.sqrt(firstNumber);
@@ -119,7 +162,7 @@ public class Main {
         againProcess();
     }
     public static void addition() {
-        Scanner addInput = new Scanner(System.in);
+
         System.out.println("Birinci Sayıyı Giriniz :");
         int firstNumber = addInput.nextInt();
         System.out.println("İkinci Sayıyı Giriniz :");
