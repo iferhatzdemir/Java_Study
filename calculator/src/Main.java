@@ -24,6 +24,7 @@ public class Main {
         System.out.println("6- Bir sayının karekökünü alma");
         System.out.println("7- Bir sayının modunu  alma");
         System.out.println("8- Diktörtgen Alanı Hesaplama");
+        System.out.println("9- Faktoriyel alma");
         int choose = menuInput.nextInt();
         menuRouter(choose);
     }
