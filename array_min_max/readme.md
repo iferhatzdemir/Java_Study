@@ -22,8 +22,7 @@ The nearest number greater than the entered number:70
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/array_min_max/src
-
+https://github.com/iferhatzdemir/Java_Study.git
 ---
 
 ## Usage
