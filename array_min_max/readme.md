@@ -1,4 +1,4 @@
-## Finding the nearest large and small number to the entered number# ATM Project
+## Finding the nearest large and small number to the entered number
 
 
 Details
