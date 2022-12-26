@@ -52,7 +52,7 @@ Total Salary: 8820.0
 
 ## Installation
 Clone the project.
-https://github.com/iferhatzdemir/Java_Study/tree/main/Boks_Match/src
+https://github.com/iferhatzdemir/Java_Study/tree/main/SalaryCalculator/src
 
 ---
 
