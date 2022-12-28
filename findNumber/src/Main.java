@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static ArrayList<Integer> numbers=new ArrayList<Integer>();
+    public static ArrayList<Integer> predictions=new ArrayList<Integer>();
     public static Scanner scanner=new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -20,6 +21,7 @@ public class Main {
         System.out.println("--------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("1. Your right:");
         int inp=scanner.nextInt();
+        predictions.add(inp);
         for (int i=3;i<5;i++){
             if (isCheckArr(inp)){
                 System.out.println("Congratulations you won!");
@@ -29,6 +31,12 @@ public class Main {
                 System.out.println("you didn't know");
                 System.out.println(i-1+". Your right:");
                 inp=scanner.nextInt();
+                predictions.add(inp);
+            }
+            if(i-1==3){
+                System.out.println("You Lost!");
+                System.out.println("Numbers in the box:");
+                System.out.println(numbers);
             }
 
         }
