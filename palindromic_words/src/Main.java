@@ -18,22 +18,24 @@ public class Main {
     // Kelimenin her bir karakteri kontrol ediliyor
     public static boolean isPalindromic(String word) {
         boolean isPalindromic = false;
-        int size = word.length() - 1;
-   for (int i = 0; i < word.length(); i++) {
-            System.out.print(word.charAt(i) + " " + word.charAt(size - i));
-            if (word.charAt(i) != word.charAt(size - i)) {
-                isPalindromic = false;
 
-            }
-         //bu kod kütüphane kullanıldı
-       /*
+
             if(word.equals(new StringBuilder(word).reverse().toString())){
             isPalindromic=true;}
-             */
-        }
+
+
         return isPalindromic;
     }
+    public  static boolean ischeckApha(String word) {
+        if(!(word.matches("A.Z-az"))){
+            System.out.println("There are characters used other than letters");
+            System.out.println("Try Again.");
 
+            return false;
+        }
+
+        return true;
+    }
     public static String getWords() {
         // Kullanıcıdan kelime girmesi için hoşgeldin mesajı yazdırıyoruz
 
@@ -45,6 +47,15 @@ public class Main {
         System.out.println("Please enter a word:");
         // Kullanıcıdan girdi alıyoruz
         String word = scanner.next();
+        while (true){
+            if(ischeckApha(word)){break;}
+
+            else {
+            word=scanner.next();
+            ischeckApha(word);
+            }
+        }
+
         //Kullanıcıdan kelime girmesini istedğimiz için cümle girse bile ilk kelimesini alacağız. bunun için trim kullanacağız trim :
         word = word.trim();
 
