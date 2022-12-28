@@ -18,19 +18,12 @@ public class Main {
     // Kelimenin her bir karakteri kontrol ediliyor
     public static boolean isPalindromic(String word) {
         boolean isPalindromic = false;
-        int size = word.length() - 1;
-   for (int i = 0; i < word.length(); i++) {
-            System.out.print(word.charAt(i) + " " + word.charAt(size - i));
-            if (word.charAt(i) != word.charAt(size - i)) {
-                isPalindromic = false;
 
-            }
-         //bu kod kütüphane kullanıldı
-       /*
+
             if(word.equals(new StringBuilder(word).reverse().toString())){
             isPalindromic=true;}
-             */
-        }
+
+
         return isPalindromic;
     }
 

@@ -11,7 +11,21 @@ This program takes a word from the user and prints to the terminal whether the n
 > civic, radar, level, rotor, kayak, reviver, racecar, redder, madam, toot, boob, pop ve noon.
 
 ---
+# Output
+```agsl
+Welcome
+This program checks if the word you entered is palindromic.
+Please enter a word:
+asdadsfaf
+asdadsfaf is not a palindromic word
+---
+Welcome
+This program checks if the word you entered is palindromic.
+Please enter a word:
+abbba
+abbba is a palindromic word
 
+```
 
 
 

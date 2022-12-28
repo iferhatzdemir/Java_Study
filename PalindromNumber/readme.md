@@ -11,8 +11,10 @@ This program takes the number of elements of the series from the user and prints
  * > Quadratic palindromic numbers: 0, 1, 4, 9, 121, 484, 676, 10201, 12321, 14641, 40804, 44944,….
   * >Cube palindromic numbers: 0, 1, 8, 343, 1331, 1030301, 1367631, 1003003001,….
 ---
+# Output:
+```agsl
 
-
+```
 
 
 
