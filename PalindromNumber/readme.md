@@ -6,12 +6,10 @@ This program takes the number of elements of the series from the user and prints
 ### Details
 * What is the Palindrome Number?
 
-* The Fibonacci sequence is a set of integers that starts with a zero, followed
-  by a one, then by another one, and then by a series of steadily increasing numbers.
-  The sequence follows the rule that each number is equal to the sum of the preceding two numbers.
-
->  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233
-
+* Palindromic numbers are numbers that have the same reading direction when read from both sides.
+* > Prime palindromic numbers: 2, 3, 5, 7, 11, 101, 131, 151, 181, 191,….
+ * > Quadratic palindromic numbers: 0, 1, 4, 9, 121, 484, 676, 10201, 12321, 14641, 40804, 44944,….
+  * >Cube palindromic numbers: 0, 1, 8, 343, 1331, 1030301, 1367631, 1003003001,….
 ---
 
 
